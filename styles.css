@@ -78,20 +78,19 @@ footer{
     width: 100%;
 } */
 
-@media screen and (max-width: 980px){
+@media screen and (max-width: 600px){
     body{
         margin: auto;
     }
+
     .set{
-        display: grid;
+        display: grid; 
         margin-left: 150px;
-        grid-template-columns: repeat(2,1fr);
-        
+         grid-template-columns: repeat(1,1fr);
     }
+
     .drum{
-        margin-bottom: 40px;
-        margin: 0 ;
-        
+        margin-bottom: 60px;
     }
  
 }
